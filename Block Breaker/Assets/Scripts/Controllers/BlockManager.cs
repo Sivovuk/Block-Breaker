@@ -6,6 +6,12 @@ using TMPro;
 
 public class BlockManager : MonoBehaviour
 {
+	[SerializeField] private int _blockValue;
+
+	public int GetBlockValue() 
+	{
+		return _blockValue;
+	}
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{

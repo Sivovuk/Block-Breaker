@@ -29,6 +29,7 @@ public class LoadLevels : MonoBehaviour
 
 			int num = i;
 			spawn.GetComponent<Button>().onClick.AddListener(delegate { OnButtonClickSelectLevel(num); });
+			spawn.GetComponent<Button>().onClick.AddListener(delegate { AudioManager.Instance.PlayClick2Sound(); });
 		}
 	}
 

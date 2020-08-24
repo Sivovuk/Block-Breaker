@@ -347,9 +347,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 635677179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71dca12e6247d594099d7753fa125ac7, type: 3}
+  m_Script: {fileID: 11500000, guid: 99b6ffbf7491bee47a61dcd4a23fee55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerScore: 0
+  _levelScore: 0
+  _collectedLevelScore: 0
+  _currentLoadedLevel: {fileID: 0}
   levels:
   - {fileID: 8396261146471448127, guid: e391702942b5c8b4da5e8852ce698402, type: 3}
   - {fileID: 7567638846739022648, guid: 49184725af2b96f4f9f28d581bb73fd6, type: 3}
@@ -694,7 +698,7 @@ Transform:
   m_GameObject: {fileID: 1465311244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -5.54, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
