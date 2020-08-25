@@ -63,19 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\AudioSettings.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioSettings.cs" />
+    <Compile Include="Assets\Scripts\Audio\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Controllers\BallController.cs" />
     <Compile Include="Assets\Scripts\Controllers\BlockManager.cs" />
     <Compile Include="Assets\Scripts\Controllers\PaddleController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\LevelStats.cs" />
-    <Compile Include="Assets\Scripts\LoadLevels.cs" />
+    <Compile Include="Assets\Scripts\Level\GameFinishScript.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelStats.cs" />
+    <Compile Include="Assets\Scripts\Level\LoadLevels.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoadingScreen.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoseCollider.cs" />
     <Compile Include="Assets\Scripts\SceneManager\SceneManagerScript.cs" />
-    <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\TESTSCRIPT.cs" />
     <Compile Include="Assets\Scripts\UIManager\MenuManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

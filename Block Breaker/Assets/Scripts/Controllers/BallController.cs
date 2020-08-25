@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
@@ -42,4 +43,17 @@ public class BallController : MonoBehaviour
 			isLaunch = true;
 		}
 	}
+
+	public void FinishGame() 
+	{
+		Destroy(GetComponent<Rigidbody2D>());
+	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+		if (collision.gameObject.CompareTag("Paddle"))
+		{
+			SoundManager.Instance.PlayAudio(SoundManager.Instance.bounce);
+		}
+    }
 }

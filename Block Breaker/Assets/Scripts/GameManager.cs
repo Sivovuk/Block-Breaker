@@ -7,7 +7,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
 	#region Selected Level Index
-		private static int selectLevelIndex;
+		private static int selectLevelIndex = -1;
 		public void SetLevelIndex(int index) { selectLevelIndex = index; }
 		public int GetSelectedLevel() { return selectLevelIndex; }
 	#endregion

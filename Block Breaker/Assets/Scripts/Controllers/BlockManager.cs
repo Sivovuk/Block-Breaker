@@ -8,6 +8,8 @@ public class BlockManager : MonoBehaviour
 {
 	[SerializeField] private int _blockValue;
 
+	[SerializeField] private GameObject _destroyEffect;
+
 	public int GetBlockValue() 
 	{
 		return _blockValue;
@@ -17,6 +19,12 @@ public class BlockManager : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("Player")) 
 		{
+			LevelManager.Instance.AddScore(_blockValue);
+			SoundManager.Instance.PlayAudio(SoundManager.Instance.clunk);
+
+			GameObject spawn = Instantiate(_destroyEffect, transform.position, Quaternion.identity);
+			Destroy(spawn, 2);
+
 			Destroy(gameObject);
 		}
 	}
