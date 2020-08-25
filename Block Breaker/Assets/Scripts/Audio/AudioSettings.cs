@@ -36,7 +36,7 @@ public class AudioSettings : MonoBehaviour
 
     public void SetMusic() 
     {
-        Debug.LogError(PlayerPrefs.GetInt(MUSIC_KEY));
+        //Debug.LogError(PlayerPrefs.GetInt(MUSIC_KEY));
         if (PlayerPrefs.GetInt(MUSIC_KEY) == 1)
         {
             _masterMixer.SetFloat("Music", PlayerPrefs.GetFloat(MUSIC_SLIDER_KEY));

@@ -7,8 +7,10 @@ using TMPro;
 public class BlockManager : MonoBehaviour
 {
 	[SerializeField] private int _blockValue;
+	[SerializeField] private int _blockLives;
 
 	[SerializeField] private GameObject _destroyEffect;
+	[SerializeField] private List<Sprite> blockLevels = new List<Sprite>();
 
 	public int GetBlockValue() 
 	{
@@ -17,15 +19,28 @@ public class BlockManager : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.gameObject.CompareTag("Player")) 
+		if (collision.gameObject.CompareTag("Player"))
 		{
-			LevelManager.Instance.AddScore(_blockValue);
+			_blockLives--;
 			SoundManager.Instance.PlayAudio(SoundManager.Instance.clunk);
 
-			GameObject spawn = Instantiate(_destroyEffect, transform.position, Quaternion.identity);
-			Destroy(spawn, 2);
+			if (_blockLives < 0)
+			{
+				LevelManager.Instance.AddScore(_blockValue);
 
-			Destroy(gameObject);
+				GameObject spawn = Instantiate(_destroyEffect, transform.position, Quaternion.identity);
+				Destroy(spawn, 2);
+
+				Destroy(gameObject);
+			}
+			else if (_blockLives == 0)
+			{
+				GetComponent<SpriteRenderer>().sprite = blockLevels[0];
+			}
+			else if (_blockLives == 1)
+			{
+				GetComponent<SpriteRenderer>().sprite = blockLevels[1];
+			}
 		}
 	}
 

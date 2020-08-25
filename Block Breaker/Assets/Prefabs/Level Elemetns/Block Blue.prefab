@@ -122,4 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _blockValue: 2
+  _blockLives: 1
   _destroyEffect: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  blockLevels:
+  - {fileID: 21300000, guid: f1a0f36eca71fac4fb2653e7ecf0d0ac, type: 3}

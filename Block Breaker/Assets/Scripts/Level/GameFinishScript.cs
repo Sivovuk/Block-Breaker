@@ -20,7 +20,7 @@ public class GameFinishScript : MonoBehaviour
     public void GameFinish() 
     {
         paddle.enabled = false;
-        ball.FinishGame();
+        ball.FinishLevel();
         ball.enabled = false;
         levelManager.enabled = false;
 
@@ -41,11 +41,19 @@ public class GameFinishScript : MonoBehaviour
         _finishLevelPanelTextLevel.text = "Level Score : " + LevelManager.Instance.GetLeveScore().ToString();
         _finishLevelPanelTextPlayer.text = "Player Score : " + LevelManager.Instance.GetPlayerScore().ToString();
 
+        paddle.enabled = false;
+        ball.FinishLevel();
+        ball.enabled = false;
+        levelManager.enabled = false;
     }
 
     public void CloseFinishLevelPanel()
     {
         _finishLevelPanel.GetComponent<Animator>().SetBool("isOpen", false);
         _finishLevelPanelButNext.onClick.RemoveAllListeners();
+
+        paddle.enabled = true;
+        ball.enabled = true;
+        levelManager.enabled = true;
     }
 }

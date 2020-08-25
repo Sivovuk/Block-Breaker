@@ -50,6 +50,12 @@ public class LevelManager : MonoBehaviour
             LoadNextLevel(_counter);
         }
         //  instantiate first level
+        else if (!PlayerPrefs.HasKey(HIGHEST_LEVEL_INDEX) && gameManager.GetSelectedLevel() < 0) 
+        {
+            PlayerPrefs.SetInt( 0 +"_level_unlock", 1 );
+            _counter = 0;
+        }
+        //  instantiate selected level
         else
         {
             _counter = gameManager.GetSelectedLevel();
@@ -69,18 +75,28 @@ public class LevelManager : MonoBehaviour
 
             _collectedLevelScore = 0;
 
-            _counter++;
             PlayerPrefs.SetInt(HIGHEST_LEVEL_INDEX, _counter);
+
             gameManager.SetLevelIndex(-1);
 
-            if (levels.Count == _counter)
+            if (levels.Count - 1 == _counter)
             {
                 _finishGame.GameFinish();
+                PlayerPrefs.SetInt(_counter + "_level_finished", 1);
             }
             else
             {
                 _finishGame.FinishLevel();
+
+                PlayerPrefs.SetInt(_counter + "_level_finished", 1);
+                if (levels.Count - 1 > _counter)
+                {
+                    Debug.LogError(levels.Count + " " + _counter);
+                    _counter++;
+                    PlayerPrefs.SetInt(_counter + "_level_unlock", 1);
+                }
             }
+
         }
     }
 

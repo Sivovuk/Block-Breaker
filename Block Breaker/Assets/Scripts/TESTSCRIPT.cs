@@ -7,15 +7,31 @@ public class TESTSCRIPT : MonoBehaviour
 {
     public List<GameObject> blocks = new List<GameObject>();
     public Coroutine destroyBlocks;
+    public GameObject ball;
+
+    private void Start()
+    {
+        ball = GameObject.FindGameObjectWithTag("Player");
+        ball.SetActive(false);
+    }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
-        {
-            blocks.Clear();
-            blocks = GameObject.FindGameObjectsWithTag("Block").ToList();
+        //if (Input.GetMouseButtonDown(0)) 
+        //{
+        //    blocks.Clear();
+        //    blocks = GameObject.FindGameObjectsWithTag("Block").ToList();
 
-            destroyBlocks = StartCoroutine(DestroyBlocks());
+        //    destroyBlocks = StartCoroutine(DestroyBlocks());
+        //}
+
+        if (Time.timeScale > 0 && Input.GetKeyDown(KeyCode.KeypadMinus))
+        {
+            Time.timeScale--;
+        }
+        if (Time.timeScale < 10 && Input.GetKeyDown(KeyCode.KeypadPlus))
+        {
+            Time.timeScale++;
         }
     }
 

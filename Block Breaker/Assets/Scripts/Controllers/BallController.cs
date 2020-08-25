@@ -1,17 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using UnityEditor.SceneManagement;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BallController : MonoBehaviour
 {
-	private bool isLaunch = false;
+	[SerializeField] private bool isLaunch = false;
 
 	[SerializeField] private PaddleController paddle;
 
-	private Vector2 paddleToBallVector;
+	[SerializeField] private Vector2 paddleToBallVector;
 
 	private void Start()
 	{
@@ -37,19 +33,21 @@ public class BallController : MonoBehaviour
 
 	private void LaunchOnMouseClick() 
 	{
-		if (Input.GetMouseButtonDown(0) && !isLaunch) 
+		if (Input.GetMouseButtonDown(0) && !isLaunch && !EventSystem.current.currentSelectedGameObject) 
 		{
 			GetComponent<Rigidbody2D>().velocity = new Vector2(2, 15);
 			isLaunch = true;
 		}
 	}
 
-	public void FinishGame() 
+	public void FinishLevel() 
 	{
-		Destroy(GetComponent<Rigidbody2D>());
+		isLaunch = false;
+		GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
 	}
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+	private void OnCollisionEnter2D(Collision2D collision)
     {
 		if (collision.gameObject.CompareTag("Paddle"))
 		{

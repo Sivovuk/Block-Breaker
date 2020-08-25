@@ -8,9 +8,12 @@ public class LevelStats : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < transform.childCount; i++) 
+        for (int i = 0; i < transform.childCount; i++)
         {
-            _levelScore += transform.GetChild(i).GetComponent<BlockManager>().GetBlockValue();
+            if (transform.GetChild(i).gameObject.CompareTag("Block"))
+            {
+                _levelScore += transform.GetChild(i).GetComponent<BlockManager>().GetBlockValue();
+            }
         }
     }
 
