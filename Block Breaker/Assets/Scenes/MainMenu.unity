@@ -981,7 +981,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 782878137}
-        m_MethodName: TurnOn_OffSound
+        m_MethodName: SetSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1641083689}
   m_HandleRect: {fileID: 1823337692}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -60
   m_MaxValue: 0
   m_WholeNumbers: 1
   m_Value: 0
@@ -1786,6 +1786,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995d7d33f56d84e4081ff9ee746ba7d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minValue: -60
+  maxValue: 0
   _musicSlider: {fileID: 498042981}
   _soundSlider: {fileID: 978642507}
   _musicCheckBox: {fileID: 812771687}
@@ -1888,7 +1890,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 782878137}
-        m_MethodName: TurnOn_OffMusic
+        m_MethodName: SetMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2056,7 +2058,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 153321433}
   m_HandleRect: {fileID: 1042372656}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -60
   m_MaxValue: 0
   m_WholeNumbers: 1
   m_Value: 0

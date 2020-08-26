@@ -7,6 +7,7 @@ using System;
 
 public class LoadLevels : MonoBehaviour
 {
+
 	[SerializeField] private int levelsNum;
 
 	[SerializeField] private RectTransform parent;

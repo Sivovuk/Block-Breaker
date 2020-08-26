@@ -73,7 +73,6 @@
     <Compile Include="Assets\Scripts\Level\GameFinishScript.cs" />
     <Compile Include="Assets\Scripts\Level\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Level\LevelStats.cs" />
-    <Compile Include="Assets\Scripts\Level\LoadLevels.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoadingScreen.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoseCollider.cs" />
     <Compile Include="Assets\Scripts\SceneManager\SceneManagerScript.cs" />
@@ -602,85 +601,85 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Desktop/Unity projekti/3. PORTFOLIO/Block-Breaker/Block Breaker/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ExePlay06/Documents/Unity projekti/Block-Breaker/Block Breaker/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
