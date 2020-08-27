@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Level\GameFinishScript.cs" />
     <Compile Include="Assets\Scripts\Level\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Level\LevelStats.cs" />
+    <Compile Include="Assets\Scripts\Level\LoadLevels.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoadingScreen.cs" />
     <Compile Include="Assets\Scripts\SceneManager\LoseCollider.cs" />
     <Compile Include="Assets\Scripts\SceneManager\SceneManagerScript.cs" />
